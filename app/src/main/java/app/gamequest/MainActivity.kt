@@ -25,6 +25,8 @@ import app.gamequest.components.QrLoginScreen
 import app.gamequest.ui.theme.PluviaTheme
 
 class MainActivity : ComponentActivity() {
+    var onConnectedCallback: (() -> Unit)? = null
+    
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
