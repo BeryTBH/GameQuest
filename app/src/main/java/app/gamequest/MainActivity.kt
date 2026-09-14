@@ -12,6 +12,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import app.gamequest.components.LoggedInScreen
 import app.gamequest.components.LoginScreen
+import app.gamequest.events.SteamEvent
 import app.gamequest.ui.theme.PluviaTheme
 
 class MainActivity : ComponentActivity() {
